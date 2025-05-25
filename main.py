@@ -5,3 +5,4 @@ def print_message():
     return "Hello CI/CD!"
 
 print(calcul(2, 3))
+echo "print('Hello CI/CD!')"
