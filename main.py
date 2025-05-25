@@ -4,5 +4,6 @@ def calcul(x, y):
 def print_message():
     return "Hello CI/CD!"
 
-print(calcul(2, 3))
-echo "print('Hello CI/CD!')"
+if __name__ == "__main__":
+    print(calcul(2, 3))
+    print(print_message())

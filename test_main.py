@@ -1,10 +1,9 @@
 import main
 
 def test_calcul():
-    """Verifică funcția matematică din main.py"""
+    """Test the calcul function"""
     assert main.calcul(3, 4) == 14
 
-def test_mesaj():
-    """Validează un mesaj specific"""
-    expected = "Hello CI/CD!"
-    assert main.print_message() == expected
+def test_message():
+    """Test the message output"""
+    assert main.print_message() == "Hello CI/CD!"
